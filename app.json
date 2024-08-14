@@ -33,6 +33,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "76137339-c675-496f-87c2-5f0430bd25ad"
+      }
+    },
+    "owner": "arya-technologies"
   }
 }
