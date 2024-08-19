@@ -1,11 +1,11 @@
 buildscript {
   // NOTE: Added
-  ext {
-        kotlin_version = '1.8.0' // or the latest stable version
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
+  // ext {
+  //       kotlin_version = '1.8.0' // or the latest stable version
+  //   }
+  //   dependencies {
+  //       classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+  //   }
 
   // Buildscript is evaluated before everything else so we can't use getExtOrDefault
   def kotlin_version = rootProject.ext.has("kotlinVersion") ? rootProject.ext.get("kotlinVersion") : project.properties["Termux_kotlinVersion"]
