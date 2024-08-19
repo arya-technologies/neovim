@@ -31,7 +31,6 @@
     "react-redux": "^9.1.2",
     "redux-persist": "^6.0.0",
     "redux-persist-expo-filesystem": "^2.0.1",
-    "react-native-termux": "file:./modules/react-native-termux",
     "expo-dev-client": "~4.0.23"
   },
   "devDependencies": {
